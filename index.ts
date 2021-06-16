@@ -1,8 +1,8 @@
-# 个人算法练习
+// 盛水最多容器
 
-```
-解法：双指针法
-    const maxArea = (height: number[]) => {
+// 双指针
+
+const maxArea = (height: number[]) => {
     let res = 0,
         i = 0, // 前指针
         j = height.length - 1; // 后指针
@@ -17,8 +17,8 @@
     }
     return res
 }
+
 // 测试
 
 var height = [1, 8, 6, 2, 5, 4, 8, 3, 7];
 maxArea(height) // 49
-```
